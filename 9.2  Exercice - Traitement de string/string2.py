@@ -2,4 +2,8 @@
 # Bonus : Inverser le sens de lecture.
 texte = "Ceci est un exemple exemplaire d'exemple exempté d'exemple."
 o_count = str.count(texte, "exemple", 0, len(texte))
-print("", o_count)
+print("Nombre d'occurences du mot 'exemple' :", o_count)
+print("Chaine original : ", texte)
+print("Chaine modifié : ", str.replace(texte, "est", "représente", len(texte)))
+print("Chaine inversé : ", texte[::-1])
+
