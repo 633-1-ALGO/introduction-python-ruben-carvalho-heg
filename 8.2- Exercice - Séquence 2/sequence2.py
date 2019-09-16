@@ -4,3 +4,7 @@
 
 nb_articles = 13
 prix_ht = 42.75
+tva = 7.7 / 100
+prix_ttc = nb_articles * (prix_ht *(1+tva))
+
+print("Le prix TTC est de ", prix_ttc)
